@@ -2,7 +2,7 @@ I'm not a coder — much of this was created using AI.
 
 # Cutter Toolz for Adobe Illustrator
 
-<a href="https://github.com/crazymrzing-prog/Cutter-Toolz-for-Adobe-Illustrator/releases/latest">
+<a href="https://github.com/crazymrzing-prog/Cutter-Toolz-for-Adobe-Illustrator/archive/refs/heads/main.zip">
   <img src="https://img.shields.io/badge/DOWNLOAD-Download-blue?style=for-the-badge" alt="Download">
 </a>
 
