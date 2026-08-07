@@ -33,13 +33,7 @@ Illustrator scripts don't need to be "installed" in the traditional sense — yo
 
 ### What it does
 Takes a single **rectangular** sticker — a rectangle path, usually with artwork placed on top — and tiles it into a grid sized to fill a target width × height (in mm). The number of rows/columns is worked out automatically from the size of your rectangle. It then draws every cut line in the grid (including the outer edges of the sheet, not just the internal dividers) as two "snake" paths: one that zigzags through all the horizontal cuts, and one that zigzags through all the vertical cuts. This snake pattern is meant to minimize pen-up travel on a cutting plotter.
-
-<img width="546" height="485" alt="202608071725" src="https://github.com/user-attachments/assets/bf6016f4-faef-4cf7-b4cd-138c0a23605f" />
-
-<img width="334" height="336" alt="202608073150" src="https://github.com/user-attachments/assets/e27aae02-0280-4053-bf66-040fb0b6dc9d" />
-
-
-         
+       
 
          
 
@@ -81,7 +75,6 @@ Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain
 
 ## SnakeCutz.jsx
 
-               <img width="466" height="485" alt="202608071727" src="https://github.com/user-attachments/assets/9c026110-bc92-4b8c-8696-b856cddcbb51" />         <img width="306" height="332" alt="202608073144" src="https://github.com/user-attachments/assets/f818ddca-5d5c-4bf6-bb77-7b31afddee87" />
 
                
                
