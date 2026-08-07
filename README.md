@@ -34,6 +34,8 @@ Illustrator scripts don't need to be "installed" in the traditional sense — yo
 ### What it does
 Takes a single **rectangular** sticker — a rectangle path, usually with artwork placed on top — and tiles it into a grid sized to fill a target width × height (in mm). The number of rows/columns is worked out automatically from the size of your rectangle. It then draws every cut line in the grid (including the outer edges of the sheet, not just the internal dividers) as two "snake" paths: one that zigzags through all the horizontal cuts, and one that zigzags through all the vertical cuts. This snake pattern is meant to minimize pen-up travel on a cutting plotter.
 
+<img width="546" height="485" alt="202608071725" src="https://github.com/user-attachments/assets/34a36594-0fc4-4ab9-99cb-4025b612a59d" />        <img width="334" height="336" alt="202608073150" src="https://github.com/user-attachments/assets/7c5ce218-7cd6-446a-9858-4899bf4ecd4e" />
+
 ### What to select before running
 Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain rectangle, not one with rounded corners. Optionally also select any artwork (image, text, group, etc.) you want repeated in every cell.
 
@@ -45,10 +47,20 @@ Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain
    - **Fill area width / height (mm):** the overall sheet size you want the grid to fill.
    - **Stub / Join options:** choose one —
      1. No stub extensions — plain grid lines, nothing joined.
+    
+          <img width="307" height="306" alt="202608073152" src="https://github.com/user-attachments/assets/31bab4ca-95a3-417e-b612-863627e0572d" />
      2. Add stub extensions only — each line overshoots its true end slightly (good for clean pierce points).
+    
+          <img width="332" height="331" alt="202608073153" src="https://github.com/user-attachments/assets/9b486434-63b8-4c3c-88f4-b613dd73ae8d" />
      3. Add stubs + join with connectors — each full row/column of cuts becomes one continuous path.
+    
+          <img width="332" height="333" alt="202608073154" src="https://github.com/user-attachments/assets/2b3de9ef-bd63-47bf-a297-1053079ae040" />     
      4. Add stubs + connectors + join path one to path two — same as above, plus the horizontal and vertical paths are joined into a single path with a square corner.
-     5. Add stubs + border frame — adds a rectangle traced around the whole grid.
+    
+           <img width="331" height="336" alt="202608073159" src="https://github.com/user-attachments/assets/7a3e17f0-0f09-4268-ae58-3ba61f82453b" />
+     5. Add stubs + border frame — adds a rectangle traced around the whole grids.
+    
+           <img width="330" height="338" alt="202608073158" src="https://github.com/user-attachments/assets/356f2a77-458e-4411-bd33-1bb30e63841f" />
    - **Stub length (mm):** how far stubs overshoot (only matters for options 2–5).
    - **Keep original object(s):** leave your original rectangle/artwork untouched instead of having it get absorbed into the generated groups.
    - **Demo mode:** colors the horizontal cuts red, vertical cuts blue, and border/join green, so you can sanity-check the layout before cutting anything for real.
@@ -61,6 +73,8 @@ Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain
 ---
 
 ## SnakeCutz.jsx
+
+            <img width="466" height="485" alt="202608071727" src="https://github.com/user-attachments/assets/cb0cd8a5-5413-4e95-ab08-392a1f40e1dd" />       <img width="306" height="332" alt="202608073144" src="https://github.com/user-attachments/assets/d4c79570-c523-4388-8d9e-7a6d79ba1e64" />
 
 ### What it does
 Takes a single **circle or ellipse** sticker and repeats it in a tangent chain — each circle touching the next — building either horizontally or vertically to fill a target width × height (mm). You can also generate multiple parallel chains with a gap between them, optionally joined into one continuous cut path.
@@ -77,6 +91,9 @@ Select exactly **one** closed circle/ellipse (i.e., what the Ellipse tool produc
    - **Fill area width / height (mm):** the sheet size the chain(s) should fill.
    - **Gap between chains (mm):** spacing between parallel chains, if more than one fits.
    - **Connect chains:** joins all chains into a single continuous cut path with straight connector lines; leave off to keep each chain as its own separate closed path.
+  
+          <img width="313" height="330" alt="202608073146" src="https://github.com/user-attachments/assets/25bea1cb-15f0-46d1-8c6e-657b38ae0f35" />      <img width="309" height="334" alt="202608073145" src="https://github.com/user-attachments/assets/88644528-344f-4062-a239-5e36ba4c05c0" />
+     
    - **Keep original object(s):** leave your original shape/artwork untouched.
    - **Demo mode:** shows the forward pass in red, the return pass in blue, and connectors in green, so you can check alignment before cutting.
 5. Click OK.
