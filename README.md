@@ -79,6 +79,8 @@ Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain
 
 ## SnakeCutz.jsx
 
+<img width="306" height="332" alt="202608073144" src="https://github.com/user-attachments/assets/a7bd7ff4-174f-4802-8bb5-4c0edec5a06f" />
+<img width="466" height="485" alt="202608071727" src="https://github.com/user-attachments/assets/af3139fa-d423-4915-8524-9dfe2b4aec40" />
 
                
                
