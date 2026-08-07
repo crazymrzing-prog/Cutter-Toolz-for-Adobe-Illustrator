@@ -86,6 +86,12 @@ Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain
 ### What it does
 Takes a single **circle or ellipse** sticker and repeats it in a tangent chain — each circle touching the next — building either horizontally or vertically to fill a target width × height (mm). You can also generate multiple parallel chains with a gap between them, optionally joined into one continuous cut path.
 
+<img width="466" height="485" alt="202608071727" src="https://github.com/user-attachments/assets/e59d8764-c0e3-4e1a-8c68-4fddc7cefafa" />
+
+<img width="306" height="332" alt="202608073144" src="https://github.com/user-attachments/assets/2a986ac1-3c19-4816-af10-c05f5437f857" />
+
+
+
 ### What to select before running
 Select exactly **one** closed circle/ellipse (i.e., what the Ellipse tool produces) as the cut shape. Optionally also select any artwork to duplicate at every position.
 
@@ -98,6 +104,11 @@ Select exactly **one** closed circle/ellipse (i.e., what the Ellipse tool produc
    - **Fill area width / height (mm):** the sheet size the chain(s) should fill.
    - **Gap between chains (mm):** spacing between parallel chains, if more than one fits.
    - **Connect chains:** joins all chains into a single continuous cut path with straight connector lines; leave off to keep each chain as its own separate closed path.
+  
+     <img width="309" height="334" alt="202608073145" src="https://github.com/user-attachments/assets/90260220-2c8b-4459-9736-8f645d396287" />
+
+     <img width="313" height="330" alt="202608073146" src="https://github.com/user-attachments/assets/ea3813dc-4616-4d73-a097-c53a3a9ed13b" />
+
      
    - **Keep original object(s):** leave your original shape/artwork untouched.
    - **Demo mode:** shows the forward pass in red, the return pass in blue, and connectors in green, so you can check alignment before cutting.
