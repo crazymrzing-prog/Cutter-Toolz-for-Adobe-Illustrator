@@ -34,9 +34,11 @@ Illustrator scripts don't need to be "installed" in the traditional sense — yo
 ### What it does
 Takes a single **rectangular** sticker — a rectangle path, usually with artwork placed on top — and tiles it into a grid sized to fill a target width × height (in mm). The number of rows/columns is worked out automatically from the size of your rectangle. It then draws every cut line in the grid (including the outer edges of the sheet, not just the internal dividers) as two "snake" paths: one that zigzags through all the horizontal cuts, and one that zigzags through all the vertical cuts. This snake pattern is meant to minimize pen-up travel on a cutting plotter.
        
+<img width="334" height="336" alt="202608073150" src="https://github.com/user-attachments/assets/c8c31f64-b8ba-4015-8c2f-4fec39c47095" />
+
 <img width="546" height="485" alt="202608071725" src="https://github.com/user-attachments/assets/6729ba8c-b9c5-46fd-9ecc-ec43e3d9dacc" />
 
-<img width="334" height="336" alt="202608073150" src="https://github.com/user-attachments/assets/c8c31f64-b8ba-4015-8c2f-4fec39c47095" />
+
 
 
          
