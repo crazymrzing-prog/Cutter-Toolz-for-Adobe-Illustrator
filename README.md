@@ -2,6 +2,10 @@ I'm not a coder — much of this was created using AI.
 
 # Cutter Toolz for Adobe Illustrator
 
+<a href="https://github.com/crazymrzing-prog/Cutter-Toolz-for-Adobe-Illustrator/releases/latest">
+  <img src="https://img.shields.io/badge/DOWNLOAD-Download-blue?style=for-the-badge" alt="Download">
+</a>
+
 Two Adobe Illustrator scripts (`.jsx`) for turning a single sticker/label shape into a repeated grid or chain of cut lines, ready for a cutting plotter. They're Illustrator ports of the original Inkscape extensions and CorelDRAW VBA macros of the same names.
 
 - **QuikCutzGrid.jsx** — tiles a **rectangular** sticker into a grid.
