@@ -78,11 +78,7 @@ Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain
 ---
 
 ## SnakeCutz.jsx
-
-<img width="306" height="332" alt="202608073144" src="https://github.com/user-attachments/assets/a7bd7ff4-174f-4802-8bb5-4c0edec5a06f" />
-<img width="466" height="485" alt="202608071727" src="https://github.com/user-attachments/assets/af3139fa-d423-4915-8524-9dfe2b4aec40" />
-
-               
+              
                
 ### What it does
 Takes a single **circle or ellipse** sticker and repeats it in a tangent chain — each circle touching the next — building either horizontally or vertically to fill a target width × height (mm). You can also generate multiple parallel chains with a gap between them, optionally joined into one continuous cut path.
@@ -99,8 +95,6 @@ Select exactly **one** closed circle/ellipse (i.e., what the Ellipse tool produc
    - **Fill area width / height (mm):** the sheet size the chain(s) should fill.
    - **Gap between chains (mm):** spacing between parallel chains, if more than one fits.
    - **Connect chains:** joins all chains into a single continuous cut path with straight connector lines; leave off to keep each chain as its own separate closed path.
-  
-          <img width="313" height="330" alt="202608073146" src="https://github.com/user-attachments/assets/25bea1cb-15f0-46d1-8c6e-657b38ae0f35" />      <img width="309" height="334" alt="202608073145" src="https://github.com/user-attachments/assets/88644528-344f-4062-a239-5e36ba4c05c0" />
      
    - **Keep original object(s):** leave your original shape/artwork untouched.
    - **Demo mode:** shows the forward pass in red, the return pass in blue, and connectors in green, so you can check alignment before cutting.
