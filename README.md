@@ -34,7 +34,7 @@ Illustrator scripts don't need to be "installed" in the traditional sense — yo
 ### What it does
 Takes a single **rectangular** sticker — a rectangle path, usually with artwork placed on top — and tiles it into a grid sized to fill a target width × height (in mm). The number of rows/columns is worked out automatically from the size of your rectangle. It then draws every cut line in the grid (including the outer edges of the sheet, not just the internal dividers) as two "snake" paths: one that zigzags through all the horizontal cuts, and one that zigzags through all the vertical cuts. This snake pattern is meant to minimize pen-up travel on a cutting plotter.
 
-         <img width="546" height="485" alt="202608071725" src="https://github.com/user-attachments/assets/34a36594-0fc4-4ab9-99cb-4025b612a59d" />        <img width="334" height="336" alt="202608073150" src="https://github.com/user-attachments/assets/7c5ce218-7cd6-446a-9858-4899bf4ecd4e" />
+         <img width="546" height="485" alt="202608071725" src="https://github.com/user-attachments/assets/b0e889aa-90a2-4f79-a4df-5317e32d7954" />              <img width="334" height="336" alt="202608073150" src="https://github.com/user-attachments/assets/a7546469-1ecd-422f-b216-ec32d58ed42c" />
 
 ### What to select before running
 Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain rectangle, not one with rounded corners. Optionally also select any artwork (image, text, group, etc.) you want repeated in every cell.
@@ -74,8 +74,8 @@ Select exactly **one** closed, axis-aligned rectangle (the cut line) — a plain
 
 ## SnakeCutz.jsx
 
-               <img width="466" height="485" alt="202608071727" src="https://github.com/user-attachments/assets/cb0cd8a5-5413-4e95-ab08-392a1f40e1dd" />       <img width="306" height="332" alt="202608073144" src="https://github.com/user-attachments/assets/d4c79570-c523-4388-8d9e-7a6d79ba1e64" />
-
+               <img width="466" height="485" alt="202608071727" src="https://github.com/user-attachments/assets/9c026110-bc92-4b8c-8696-b856cddcbb51" />         <img width="306" height="332" alt="202608073144" src="https://github.com/user-attachments/assets/f818ddca-5d5c-4bf6-bb77-7b31afddee87" />
+               
 ### What it does
 Takes a single **circle or ellipse** sticker and repeats it in a tangent chain — each circle touching the next — building either horizontally or vertically to fill a target width × height (mm). You can also generate multiple parallel chains with a gap between them, optionally joined into one continuous cut path.
 
